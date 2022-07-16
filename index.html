@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Slide Puzzle</title>
+        <link rel="stylesheet" href="styles.css">
+      
+    </head>
+    <body>
+        <center>
+        <div>
+         <img src="images/questn.gif" height="14%" width="7%"> <h1>15-PUZZLE GAME</h1><img src="images/questn.gif" height="14%" width="7%"> 
+        </div> 
+  <div id="puzzle-container"></div>
+ 
+ <div class="row row1">
+<div class="tile1" id="cell11"  onclick="box(1,1);"></div>
+<div class="tile2" id="cell12"  onclick="box(1,2);"></div>
+<div class="tile3" id="cell13"  onclick="box(1,3);"></div>
+<div class="tile4" id="cell14"  onclick="box(1,4);"></div>
+ </div>
+ <div class="row row2">
+    <div class="tile5" id="cell21"  onclick="box(2,1);"></div>
+    <div class="tile6" id="cell22"  onclick="box(2,2);"></div>
+    <div class="tile7" id="cell23"  onclick="box(2,3);"></div>
+    <div class="tile8" id="cell24"  onclick="box(2,4);"></div>
+     </div>
+ <div class="row row3">
+     <div class="tile9" id="cell31"  onclick="box(3,1);"> </div>
+     <div class="tile10" id="cell32" onclick="box(3,2);"></div>
+    <div class="tile11" id="cell33"  onclick="box(3,3);"> </div>
+    <div class="tile12" id="cell34"  onclick="box(3,4);"></div>
+</div>
+<div class="row row4">
+    <div class="tile13" id="cell41"  onclick="box(4,1);"> </div>
+    <div class="tile14" id="cell42" onclick="box(4,2);"></div>
+   <div class="tile15" id="cell43"  onclick="box(4,3);"> </div>
+   <div class="tile16" id="cell44"  onclick="box(4,4);"></div>
+</div>
+  </div>
+  
+  <div><button>Submit</button> &nbsp; <button class="shuffle">Restart</button> <button class="change">Change Layout</button> <h2>MOVES</h2></div>
+  <div class="leaderboard"> Best score:0 moves </div>
+</center>
+  <script src="index.js"></script>
+   </body>
+</html>
+
+
+
